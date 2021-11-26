@@ -1,0 +1,148 @@
+@font-face{
+    font-family: myriad-pro;
+    src: url('myriad-pro/MYRIADPRO-BOLDCONDIT.OTF');
+}
+.ch{
+    margin: 0;
+    padding: 0;
+    font-family: 'myriad';
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    display: inline;
+    left: 2vw;
+    top: 5vh; 
+}
+ul.list{
+    list-style-type: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    float: right;
+    position: absolute;
+    left: 62vw;
+    top: 5vh;
+    font-family: 'myriad';
+    font-size: 25px;
+}
+li{
+    display: inline;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #3D4183;
+}
+.Body {
+    background: #fff;
+    font-family: 'myriad-pro';
+}
+.container-0{
+    position: absolute;
+    max-height: 796px;
+    height: 50%;
+    max-width: 450px;
+    width: 50%;
+    margin: auto;
+    left: 13vw;
+    top: 30vh;
+    font-family: 'myriad';
+}
+.suisei{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'myriad';
+  font-size: 50px;
+  font-weight: lighter;
+}
+.hololive{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'myriad';
+    font-weight: lighter;
+    font-size: 20px;
+}
+.tombol{
+    position: absolute;
+    margin-top: 5px;
+    background-color: #3D4183;
+    border-style: solid;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    color: #fff;
+    height: 80px;
+    width: 150px;
+    font-size: 20px;
+}
+.tombol:hover{
+    background-color: #fff;
+    color: #3D4183;
+}
+.Container-1 {
+    position: absolute;
+    max-height: 796px;
+    height: 60%;
+    max-width: 450px;
+    width: 40%;
+    margin: 0;
+    left: 45vw;
+    top: 13vh;
+    font-size: 20px;
+    color: #fff;
+    background-color: #3D4183;
+    border: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 50px;
+    margin: 20px;
+}
+.judul{
+    margin-top: 40px;
+    font-family: 'myriad';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    position: absolute;
+    top: 1vh;
+}
+.bait1{
+    text-indent: 30px;
+    margin-top: 70px;
+    font-family: 'myriad';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.bait2{
+    text-indent: 30px;
+    margin-top: 20px;
+    font-family: 'myriad';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.bait3{
+    text-indent: 30px;
+    margin-top: 20px;
+    font-family: 'myriad';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.content{
+    margin:0;
+    padding: 0px;
+    height: 100px;
+    width: 400px;
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .container-0, .Container-1, .content .ul {
+      width: 100%;
+    }
+  }
