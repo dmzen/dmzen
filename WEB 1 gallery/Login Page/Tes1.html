@@ -1,0 +1,176 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Tradigi - Login</title>
+    <link rel="stylesheet" type="" href="#">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        header {
+            background: linear-gradient(#000046, #1cb5e0);
+            opacity: 0.97;
+            width: auto;
+            height: auto;
+            animation: typing 2.5s steps(150, end), step-end;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0
+            }
+            to {
+                width: 100%
+            }
+        }
+        
+        div.animasi-text {
+            overflow: hidden;
+            color: white;
+            font: italic bold 25px vine;
+            border-left: white;
+            white-space: nowrap;
+            margin: 0 auto;
+            letter-spacing: .15em;
+            animation: typing 3.5s steps(150, end), step-end;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0
+            }
+            to {
+                width: 100%
+            }
+        }
+        
+        body {
+            margin-bottom: 0px;
+            padding: 0px;
+            background: url(PL.jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: sans-serif;
+            height: 100vh;
+        }
+        
+        a {
+            color: rgb(247, 153, 66);
+            font: italic bold 25px vine;
+        }
+        /* NAVIGASI BAR */
+        
+        .navbar {
+            animation: typing 2.5s steps(150, end), step-end;
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0
+            }
+            to {
+                width: 100%
+            }
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: linear-gradient(#1cb5e0, #033875);
+        }
+        
+        li {
+            float: right;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+        
+        li a.active {
+            background-color: #8a1010;
+            color: white;
+            border: 0px solid #8a1010;
+        }
+        
+        li a:hover {
+            background-color: #8a1010;
+        }
+        
+        .Login {
+            width: 80vw;
+            height: auto;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            top: 53%;
+            left: 50%;
+            position: absolute;
+            box-sizing: border-box;
+            padding: 10vh;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<script type="text/javascript">
+    function masuk() {
+        var username = document.login.username.value;
+        var password = document.login.password.value;
+        if (username == "DimasEN" && password == "DimasEN") {
+            alert("Anda berhasil login!");
+
+        } else {
+            alert("Maaf, username atau password yang anda masukkan salah.");
+        }
+    }
+
+    function masuk1() {
+        var Continue = alert("Anda perlu login nanti")
+
+    }
+</script>
+
+
+</body>
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-widht,Initial-scale=1.0">
+    <div class="animasi-text">
+        <h1>Tradigi</h1>
+    </div>
+</header>
+<bg>
+
+</bg>
+
+<ul>
+    <div class="navbar">
+        <li><a href="file:///D:/WEB%201/About%20us/Tes1.html">About us</a></li>
+    </div>
+</ul>
+<div class="text">
+    <div class="Login">
+        <form name="login" method="post">
+            Username : <input type="text" name="username" placeholder="Username">
+            <p></p>
+            Password : <input type="password" name="password" placeholder="Password">
+            <input type="submit" name="submit" onclick="masuk()" value="Login">
+        </form>
+        <a type="Continue " onclick="masuk1()" href="file:///D:/WEB%201/Home%20page(without%20Login)/Tes1.html">Continue without login</a>
+    </div>
+</div>
+</body>
+
+</html>

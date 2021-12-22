@@ -1,0 +1,90 @@
+[03/22/21 01:18:55 pm] C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\licensemanager.exe -reg -skey 8219_20 -loadKey 2025 -a
+
+[03/22/21 01:18:55 pm] Looking for license INI file:C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\cglm.ini
+
+[03/22/21 01:18:55 pm] INI file located.
+
+[03/22/21 01:18:55 pm] Initializing LicenseManager.exe
+[03/22/21 01:18:55 pm] License Repository Directory:C:\ProgramData\Embarcadero\
+[03/22/21 01:18:55 pm] Default License Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\\..\License
+[03/22/21 01:18:55 pm] Root Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\\..
+[03/22/21 01:18:55 pm] License Dir Exists: True
+[03/22/21 01:18:55 pm] Root Dir Exists: True
+[03/22/21 01:18:55 pm] Default Dir Exists: True
+[03/22/21 01:18:55 pm] ProductId:8219 - SkuId:20
+
+[03/22/21 01:22:40 pm] C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\licensemanager.exe -reg -skey 8219_20 -loadKey 2025 -a
+
+[03/22/21 01:22:40 pm] Looking for license INI file:C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\cglm.ini
+
+[03/22/21 01:22:40 pm] INI file located.
+
+[03/22/21 01:22:40 pm] Initializing LicenseManager.exe
+[03/22/21 01:22:40 pm] License Repository Directory:C:\ProgramData\Embarcadero\
+[03/22/21 01:22:40 pm] Default License Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\\..\License
+[03/22/21 01:22:40 pm] Root Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\\..
+[03/22/21 01:22:40 pm] License Dir Exists: True
+[03/22/21 01:22:40 pm] Root Dir Exists: True
+[03/22/21 01:22:40 pm] Default Dir Exists: True
+[03/22/21 01:22:40 pm] ProductId:8219 - SkuId:20
+
+[03/22/21 01:22:48 pm] C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\licensemanager.exe -reg -skey 8219_20 -loadKey 2025 -a
+
+[03/22/21 01:22:48 pm] Looking for license INI file:C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\cglm.ini
+
+[03/22/21 01:22:48 pm] INI file located.
+
+[03/22/21 01:22:48 pm] Initializing LicenseManager.exe
+[03/22/21 01:22:48 pm] License Repository Directory:C:\ProgramData\Embarcadero\
+[03/22/21 01:22:48 pm] Default License Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\\..\License
+[03/22/21 01:22:48 pm] Root Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\bin\\..
+[03/22/21 01:22:48 pm] License Dir Exists: True
+[03/22/21 01:22:48 pm] Root Dir Exists: True
+[03/22/21 01:22:48 pm] Default Dir Exists: True
+[03/22/21 01:22:48 pm] ProductId:8219 - SkuId:20
+
+[03/22/21 01:28:13 pm] C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\licensemanager.exe -reg -skey 8219_20 -loadKey 2025 -a
+
+[03/22/21 01:28:13 pm] Looking for license INI file:C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\cglm.ini
+
+[03/22/21 01:28:13 pm] INI file located.
+
+[03/22/21 01:28:13 pm] Initializing LicenseManager.exe
+[03/22/21 01:28:13 pm] License Repository Directory:C:\ProgramData\Embarcadero\
+[03/22/21 01:28:13 pm] Default License Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\\..\License
+[03/22/21 01:28:13 pm] Root Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\\..
+[03/22/21 01:28:13 pm] License Dir Exists: True
+[03/22/21 01:28:13 pm] Root Dir Exists: True
+[03/22/21 01:28:13 pm] Default Dir Exists: True
+[03/22/21 01:28:13 pm] ProductId:8219 - SkuId:20
+
+[03/22/21 01:28:22 pm] C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\licensemanager.exe -reg -skey 8219_20 -loadKey 2025 -a
+
+[03/22/21 01:28:22 pm] Looking for license INI file:C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\cglm.ini
+
+[03/22/21 01:28:22 pm] INI file located.
+
+[03/22/21 01:28:22 pm] Initializing LicenseManager.exe
+[03/22/21 01:28:22 pm] License Repository Directory:C:\ProgramData\Embarcadero\
+[03/22/21 01:28:22 pm] Default License Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\\..\License
+[03/22/21 01:28:22 pm] Root Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\\..
+[03/22/21 01:28:22 pm] License Dir Exists: True
+[03/22/21 01:28:22 pm] Root Dir Exists: True
+[03/22/21 01:28:22 pm] Default Dir Exists: True
+[03/22/21 01:28:22 pm] ProductId:8219 - SkuId:20
+
+[03/22/21 01:28:29 pm] C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\LicenseManager.exe -reg -skey 8219_20 -loadKey 2025 -a
+
+[03/22/21 01:28:29 pm] Looking for license INI file:C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\cglm.ini
+
+[03/22/21 01:28:29 pm] INI file located.
+
+[03/22/21 01:28:29 pm] Initializing LicenseManager.exe
+[03/22/21 01:28:29 pm] License Repository Directory:C:\ProgramData\Embarcadero\
+[03/22/21 01:28:29 pm] Default License Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\\..\License
+[03/22/21 01:28:29 pm] Root Directory:C:\Program Files (x86)\Embarcadero\Studio\19.0\Bin\\..
+[03/22/21 01:28:29 pm] License Dir Exists: True
+[03/22/21 01:28:29 pm] Root Dir Exists: True
+[03/22/21 01:28:29 pm] Default Dir Exists: True
+[03/22/21 01:28:29 pm] ProductId:8219 - SkuId:20
+

@@ -1,0 +1,562 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Tradigi- Homepage(Login)</title>
+
+
+</head>
+<style>
+    header {
+        background: linear-gradient(#000046, #1cb5e0);
+        opacity: 0.97;
+        animation: typing 2.5s steps(300, end), step-end;
+    }
+    
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 100%
+        }
+    }
+    
+    div.animasi-text {
+        overflow: hidden;
+        color: white;
+        font: italic bold 25px vine;
+        border-left: white;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(150, end), step-end;
+    }
+    
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 100%
+        }
+    }
+    
+    body {
+        margin-bottom: 0px;
+        padding: 0px;
+        background: url(PL.jpg);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+        height: 100vh;
+        width: auto;
+    }
+    /* GALERRY */
+    
+    div.gallery {
+        border: 3px solid transparent;
+        border-radius: 5%;
+        background: transparent;
+    }
+    
+    div.gallery:hover {
+        border: 3px solid #8a1010;
+        background-color: #8a1010;
+    }
+    
+    div.gallery img {
+        width: 100%;
+        border-radius: 5% 5% 0% 0%;
+        height: auto;
+        overflow: auto;
+    }
+    
+    div.desc {
+        padding: 1vh;
+        font-family: Sans-serif;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        background: linear-gradient(#000000, #033875);
+        overflow: hidden;
+    }
+    
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 22vh;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .rekomendasi {
+        padding: 0 6px;
+        float: left;
+        width: 10vh;
+    }
+    
+    .iklan {
+        margin-top: 67%;
+    }
+    
+    .iklan2 {
+        margin-top: 37%;
+    }
+    /* Banner Iklan */
+    
+    div.iklan3:hover {
+        border: 3px solid #8a1010;
+        background-color: #8a1010;
+    }
+    
+    div.iklan3 img {
+        width: 100%;
+        border-radius: 5% 5% 0% 0%;
+        height: 10vh;
+        overflow: auto;
+    }
+    
+    .bannerads {
+        padding: 0 6px;
+        float: left;
+        width: 50vw;
+        height: 20%;
+    }
+    /* NAVIGASI BAR */
+    
+    .navbar {
+        animation: typing 2.5s steps(150, end), step-end;
+    }
+    
+    @keyframes typing {
+        from {
+            width: 0
+        }
+        to {
+            width: 100%
+        }
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: linear-gradient(#1cb5e0, #033875);
+    }
+    
+    li {
+        float: right;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    
+    li a.active {
+        background-color: #8a1010;
+        color: white;
+        border: 0px solid #8a1010;
+    }
+    
+    li a:hover {
+        background-color: #8a1010;
+    }
+    /* kolom kanan dan kiri*/
+    
+    .column.side {
+        width: 19%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        border: solid;
+        float: right;
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 14px 16px;
+        text-decoration: blanchedalmond;
+        font-family: sans-serif;
+        font-size: 20px;
+        overflow: auto;
+    }
+    
+    .column.kiri {
+        width: 19%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        border: solid;
+        float: left;
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 14px 20px;
+        text-decoration: blanchedalmond;
+        font-family: sans-serif;
+        font-size: 20px;
+        overflow: auto;
+    }
+    /* ISI KOLOM KANAN */
+    
+    .rekomendasi {
+        padding: 0 6px;
+        float: left;
+        width: 10vh;
+    }
+    
+    .iklan {
+        margin-top: 67%;
+    }
+    
+    .iklan2 {
+        margin-top: 37%;
+    }
+    /* ISI KOLOM KIRI */
+    
+    div.kontak {
+        border: 3% solid transparent;
+        border-radius: 5%;
+        background: white;
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    div.kontak:hover {
+        border: 3px solid #8a1010;
+        background-color: #8a1010;
+    }
+    
+    div.kontak img {
+        width: 100%;
+        border-radius: 5% 5% 0% 0%;
+        height: auto;
+    }
+    /*ini footer*/
+    
+    footer {
+        margin: 0px;
+        font-family: sans-serif;
+        background: linear-gradient(rgba(7, 1, 66, 0.5), rgba(7, 115, 179, 0.5));
+        color: white;
+        padding: auto;
+        float: left;
+        height: 10%;
+        width: 100%;
+        text-align: left;
+    }
+    /* BUTTON HALAMAN */
+    
+    ul.pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    ul.pagination li {
+        display: inline;
+    }
+    
+    ul.pagination li a {
+        color: black;
+        float: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        height: auto;
+    }
+    
+    ul.pagination li a:hover:active {
+        background-color: #8a1010;
+    }
+    
+    div.center {
+        text-align: center;
+    }
+</style>
+<script type="text/javascript">
+    function donlod() {
+        var download = alert("anda akan diarahkan ke halaman download")
+
+    }
+</script>
+</body>
+<header>
+    <div class="animasi-text">
+        <h1>Tradigi</h1>
+    </div>
+</header>
+<bg>
+
+</bg>
+<!--<p>Ini bar navigasi ya</p> -->
+<ul>
+    <div class="navbar">
+        <li><a href="file:///D:/WEB 1/Login Page/Tes1.html">Log Out</a>
+            <li><a class="active" href="file:///D:/WEB%201/Home%20page(Login)/Tes1.html">Home</a></li>
+            <li><a href="file:///D:/WEB%201/About%20us/Tes1.html">About us</a></li>
+    </div>
+</ul>
+<div class="column kiri">
+    <h2 align="center">Contact us</h2>
+    <div class="rekomendasi">
+        <div class="kontak">
+            <a target="_self" href="https://www.instagram.com/invites/contact/?i=i1k3wlisa0d7&utm_content=w3vcd6">
+                <img src="ig.png" width="50" height="50">
+            </a>
+        </div>
+    </div>
+    <div class="rekomendasi">
+        <div class="kontak">
+            <a target="_self" href="">
+                <img src="wa.png" width="50" height="50">
+            </a>
+        </div>
+    </div>
+    <div class="rekomendasi">
+        <div class="kontak">
+            <a target="_self" href="https://www.facebook.com/edy.togodlay.1">
+                <img src="fb.png" width="50" height="50">
+            </a>
+        </div>
+    </div>
+
+    <!--<p>Ini border iklan gede</p> -->
+    <div class="iklan">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="ads.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+    <div class="iklan2">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="ads.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+
+</div>
+<div class="column side">
+    <h1 style="font-size: 25px">Recommendations</h1>
+    <!--<p>Ini thumbnail rekomendasi ya</p> -->
+    <div class="rekomendasi">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="PL.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+
+    <div class="rekomendasi">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="PL.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+    <div class="rekomendasi">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="PL.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+    <div class="rekomendasi">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="PL.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+    <div class="rekomendasi">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="PL.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+    <div class="rekomendasi">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="PL.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+    <!--<p>Ini border iklan gede</p> -->
+    <div class="iklan">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="ads.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+    <div class="iklan2">
+        <div class="gallery">
+            <a target="_self" href="">
+                <img src="ads.jpg" width="350" height="250">
+            </a>
+        </div>
+    </div>
+
+</div>
+<!--<p>Nah yang ini gambar pada galeri nya</p> -->
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="file:///D:/WEB%201/information%20page/Tes1.html?">
+            <img src="PL.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="#">
+            <img src="1.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="rimuru.jpg">
+            <img src="rimuru.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="cs.JPG">
+            <img src="cs.JPG" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="file:///D:/WEB%201/information%20page/Tes1.html?">
+            <img src="PL.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="file:///D:/WEB%201/information%20page/Tes1.html?">
+            <img src="PL.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="file:///D:/WEB%201/information%20page/Tes1.html?">
+            <img src="PL.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="file:///D:/WEB%201/information%20page/Tes1.html?">
+            <img src="PL.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="file:///D:/WEB%201/information%20page/Tes1.html?">
+            <img src="PL.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="#">
+            <img src="1.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="rimuru.jpg">
+            <img src="rimuru.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_self" type="download" onclick="donlod()" href="cs.JPG">
+            <img src="cs.JPG" width="600" height="400">
+        </a>
+        <div class="desc">Click for more information</div>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<!--<p>Ini tombol next dan previous</p> -->
+<div class="center">
+    <ul class="pagination">
+        <li><a href="#">Next</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">Prev</a></li>
+    </ul>
+</div>
+<!--<p> bagian footer ya</p>-->
+<!--<p> border iklan gede</p>-->
+<div class="bannerads">
+    <div class="iklan3">
+        <a target="_self" href="file:///D:/WEB%201/Login%20Page/Tes1.html">
+            <img src="ads.jpg" width="600" height="400">
+        </a>
+    </div>
+</div>
+<div class="bannerads">
+    <div class="iklan3">
+        <a target="_self" href="file:///D:/WEB%201/Login%20Page/Tes1.html">
+            <img src="ads.jpg" width="600" height="400">
+        </a>
+    </div>
+</div>
+<footer>
+    <p align="left">Credit to DimasEN</p>
+</footer>
+<!--<p>Ini tombol next dan previous</p> -->
+
+</body>
+
+</html>
